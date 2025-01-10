@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Vinicius</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #ee1616;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .foto-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 40px;
+        }
+        .bio {
+            max-width: 600px;
+        }
+
+        .bio h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .bio p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: justify; 
+        }
+
+        .sections {
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .section {
+            background-color: #1d1d1d;
+            padding: 20px;
+            border-radius: 10px;
+            width: 280px;
+            height: auto;
+            color: #fff;
+        }
+
+        .section h3 {
+            font-size: 1.6em;
+            margin-bottom: 10px;
+            color: #ee1616;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.5;
+            text-align: justify; 
+        }
+
+        .fatos-section {
+            font-size: 1.1em;
+            background-color: #1d1d1d;
+            color: #fff;
+            padding: 40px;
+            margin-top: 40px;
+        }
+
+        .fatos-title {
+            font-size: 1.6em;
+            color: #ee1616;
+            margin-bottom: 20px;
+        }
+
+        .fatos ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .fatos ul li {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            font-size: 1.1em;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-weight: 450;
+        }
+
+        a {
+            color: #000000;
+        }
+        
+        .icones-sociais {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+        .icones-sociais img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            filter: invert(35%) sepia(100%) saturate(7450%) hue-rotate(-5deg) brightness(100%) contrast(101%);
+        } 
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Gabriel Vinicius da Silva Correia</h1>
+        <p>Estudante de Informática no IFCE, apaixonado por tecnologia e sempre em busca de aprender mais.</p>
+    </header>
+
+    <div class="container">
+        <img src="img/fotogabriel.jpeg" alt="Gabriel" class="foto-img">
+        <div class="bio">
+            <h2>Quem é Gabriel?</h2>
+            <p>Gabriel Vinicius da Silva Correia, nasceu em 15 de outubro de 2007, em Fortaleza. Atualmente tem 17 
+                anos, mora no Eusébio e é estudante do Instituto Federal do Ceará (IFCE), cursando o Ensino Médio 
+                Técnico Integrado em Informática no campus de Maranguape. Ele é uma pessoa curiosa, determinada e 
+                esforçada, sempre em busca de aprender mais.</p>
+        </div>
+    </div>
+
+    <div class="sections">
+        <div class="section">
+            <h3>Jornada Acadêmica</h3>
+            <p>Gabriel iniciou seus estudos em colégios particulares como Ágape e Paiva Andrade, mais tarde, passou pelo 
+                Colégio Carlos Lobo, em Maracanaú, durante o período em que morou lá. Ele sempre teve interesse e se destacou nas matérias de
+                Matemática, Ciências e Geografia.</p>
+        </div>
+
+        <div class="section">
+            <h3>Objetivos e Sonhos</h3>
+            <p>Gabriel deseja se tornar engenheiro de software e trabalhar com inteligência artificial. Seu objetivo é
+                expandir sua carreira para fora do país, desenvolvendo suas habilidades e aprendendo constantemente.</p>
+        </div>
+
+        <div class="section">
+            <h3>Passatempo e Diversão</h3>
+            <p>Nos seus momentos de lazer, Gabriel adora jogar videogame, praticar futebol, ir à academia e
+                aproveitar a praia. Essas atividades ajudam a equilibrar sua rotina de estudos com momentos de
+                diversão.</p>
+        </div>
+    </div>
+
+    <div class="fatos-section">
+        <h3 class="fatos-title">Fatos Relevantes</h3>
+        <ul>
+            <li>Venceu o concurso de redação no Colégio Ágape, no 8º ano.</li>
+            <li>Foi reconhecido como o melhor aluno da sala no Colégio Carlos Lobo durante três bimestres consecutivos.</li>
+            <li>No 5° ano, foi xerife do PROERD, por ter sido o aluno que mais entregou atividades importantes para a escola e comunidade.</li>
+            <li>No futsal, foi campeão da Liga Aldesul no Colégio Ágape pelo time sub 15.</li>
+            <li>Foi coroinha durante 1 ano, na Igreja Matriz do Eusébio.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Clique nos ícones para visitar as redes sociais do Gabriel!</p>
+        <aside class="icones-sociais">
+            <a href="https://www.linkedin.com/in/gabriel-vinicius-bb726a32b/" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/50/0F2B3F/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/gabrielviniciussc" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/50/0F2B3F/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/gabrielviniciussc" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/50/0F2B3F/instagram-new.png" alt="Instagram">
+            </a>
+        </aside>
+    </div>
+
+</body>
+
+</html>
